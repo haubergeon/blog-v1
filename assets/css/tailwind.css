@@ -4,3 +4,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navLink {
+    @apply flex px-2.5 py-4 rounded hover:bg-turq-blue hover:shadow-inner cursor-pointer transition ease-out duration-300 transform hover:scale-110;
+}
+
+.badge{
+    @apply bg-aqua-blue text-white rounded-xl p-1 absolute top-0 ml-3 mt-3 flex;
+}
+
+.card{
+    @apply bg-white rounded-md overflow-hidden shadow-md relative;
+}

@@ -1,30 +1,132 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        blog-tw2
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+<div class="m-8 font-nav text-white">
+
+  <h1 class ="bg-blue-400 rounded-md p-2">Recent Articles</h1>
+  <div class="m-8 grid lg:grid-cols-4 gap-10">
+
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
     </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+
+
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
+    </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
+    </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
+    </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+    
   </div>
+
+  <h1 class ="bg-blue-400 rounded-md p-2">Popular Articles</h1>
+
+  <div class="m-8 grid lg:grid-cols-4 gap-10">
+
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
+    </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+
+
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
+    </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
+    </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+
+    <div class="card">
+    <img class="object-cover" src="../assets/Open Source.png" alt="">
+    <div class="m-4">
+      <span class="text-lg bg-aqua-blue">A Noob's guide to Dual Booting.</span>
+    </div>
+    <div class="badge">
+      <span class="flex items-center">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path></svg>
+      </span>
+      <span class="flex items-center">10 mins</span>
+    </div>
+    </div>
+    
+  </div>
+
+
+
+</div>
 </template>
 
 <script>
@@ -32,47 +134,5 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
