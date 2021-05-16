@@ -1,5 +1,5 @@
 <template>
-<div class="relative min-h-screen md:flex bg-gray-300">
+<div class="relative min-h-screen md:flex bg-gray-100">
   <div class="bg-blue-400 flex justify-between md:hidden">
      <a class="flex justify-center bg-white m-4 rounded-md overflow-hidden" href="#">
             <img class="object-scale-down h-30 w-60" src="../assets/BB.gif" alt="">
@@ -11,7 +11,7 @@
 
     <div class="bg-blue-400 text-white w-80 absolute inset-y-0 z-50  left-0 transform transition ease-in-out duration-200 md:relative md:translate-x-0" v-bind:class="{ '-translate-x-full' : isActive }"> <!--sidebar-->
 
-        <a class="flex justify-center m-8 bg-white rounded" href="#">
+        <a class="flex justify-center m-8 bg-white rounded">
             <img class="object-scale-down h-30 w-60" src="../assets/BB.gif" alt="">
         </a>
         <nav>
@@ -71,6 +71,15 @@
               <span class="flex-items-center font-nav">Projects</span>
 
               </nuxt-link> 
+
+              <nuxt-link to="/Learn" class="navLink">
+                <span class="flex-items-center">
+                <svg class="w-6 h-6 mx-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+              </span>
+
+              <span class="flex-items-center font-nav">Learn Along</span>
+
+              </nuxt-link> 
             
           </ul>
         </nav>
@@ -98,5 +107,4 @@ export default {
 </script>
 
 <style>
-
 </style>

@@ -2,7 +2,7 @@
 <div class="m-8 font-nav text-white">
 
   <h1 class ="bg-blue-400 rounded-md p-2">Recent Articles</h1>
-  <div class="m-8 grid lg:grid-cols-4 gap-10">
+  <div class="m-8 grid lg:grid-cols-4 gap-10 ">
 
 
     <div class="card">

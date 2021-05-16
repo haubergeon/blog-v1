@@ -16,3 +16,9 @@
 .card{
     @apply bg-white rounded-md overflow-hidden shadow-md relative cursor-pointer transition ease-out duration-300 transform hover:scale-105;
 }
+.nuxt-link-exact-active {
+    @apply md:bg-turq-blue transform scale-110;
+}
+.nuxt-content{
+    @apply bg-white rounded-xl xl:mx-72 md:my-10 m-6 font-nav;
+}
