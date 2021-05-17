@@ -3,9 +3,9 @@
 
     <div class="m-8 grid lg:grid-cols-5 gap-10">
 
-        <nuxt-link to="/Learn_dsa">
+        <nuxt-link to="/xyz/Learn_dsa">
         <div class="card">
-    <img class="object-cover" src="../assets/DSA.png" alt="">
+    <img class="object-cover" src="../../assets/DSA.png" alt="">
     <div class="m-4">
       <span class="text-lg text-black">Data Structures and Algorithms.</span>
     </div>

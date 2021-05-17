@@ -5,7 +5,7 @@
     
    <nuxt-link to="/blog/dsa1">
      <div class="card">
-    <img class="object-cover" src="../assets/dsa1.png" alt="">
+    <img class="object-cover" src="../../assets/dsa1.png" alt="">
     <div class="m-4">
       <span class="text-lg text-black">Day 1 - The need for speed.</span>
     </div>

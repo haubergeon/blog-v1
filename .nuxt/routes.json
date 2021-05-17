@@ -1,0 +1,37 @@
+[
+  {
+    "name": "About",
+    "path": "/About",
+    "component": "/home/gs/Desktop/blog-v1/pages/About.vue",
+    "chunkName": "pages/About",
+    "_name": "_2a43a95c"
+  },
+  {
+    "name": "Learn",
+    "path": "/Learn",
+    "component": "/home/gs/Desktop/blog-v1/pages/Learn.vue",
+    "chunkName": "pages/Learn",
+    "_name": "_d12fbaee"
+  },
+  {
+    "name": "Learn_dsa",
+    "path": "/Learn_dsa",
+    "component": "/home/gs/Desktop/blog-v1/pages/Learn_dsa.vue",
+    "chunkName": "pages/Learn_dsa",
+    "_name": "_9f207508"
+  },
+  {
+    "name": "blog-slug",
+    "path": "/blog/:slug?",
+    "component": "/home/gs/Desktop/blog-v1/pages/blog/_slug.vue",
+    "chunkName": "pages/blog/_slug",
+    "_name": "_05f13170"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/gs/Desktop/blog-v1/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_d9b83392"
+  }
+]
