@@ -15,18 +15,15 @@
     </h1>
     <p class="text-2xl">
       I had the pretentious urge to title this section "About the author", but I managed to keep the cringe in check {for now}. So about me.
-      I'm currently a sophomore majoring in Electronics and Communication engineering. A more elaborate description befitting my epitaph would be :-
+      I'm currently a sophomore majoring in Electronics and Communication engineering.
     </p>
-    <p class="text-2xl italic p-6">
-      Gursimran of the House Singh, probably the Millionth of His Name, not the King of the Andals and the First Men, nor the Lord of the Seven Kingdoms, and nor Protector of the Realm. Westeros aside, I'm currently a sophomore at Thapar Institute of Engineering and Technology which is in the Northern part of India where i planned to reside till the end of my degree untill i was forced into exile by a not-so chivalrous gentleman that smote, both the elderly and the young of my realm and goes by the name of 'Covid'. So here I am residing in my Southern abode, staying inside the four walls of my keep hoping this miserly tyrant would go away. May the elves and dwarves come to our rescue!
-    </p>
+
     <h1 class="text-3xl m-4">
       So what is this blog about right now?
     </h1>
     <p class="text-2xl">
       Well. right now - I'm really into some tech stuff, Embedded Systems, Machine Learrning, Web-Dev - you know the fads. The second thing I'm really into these days is running.
-      So right now, it's about all that. Maybe I'll really be into kids at some time in the future and this blog will transform into some sort of paedophilic altar.
-      Jk. Jk.
+      So right now, it's about all that.
     </p>
 </div>
 </template>
