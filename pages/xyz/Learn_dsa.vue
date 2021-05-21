@@ -12,6 +12,15 @@
     </div>
    </nuxt-link>
 
+      <nuxt-link to="/blog/dsa2">
+     <div class="bg-gradient-to-b from-blue-400 via-aqua-blue to-dark-turq card flex flex-col items-center">
+    <h1 class="text-4xl text-center m-6">Day 2</h1>
+    <div class="m-4">
+      <span class="text-md">Big OH.</span>
+    </div>
+    </div>
+   </nuxt-link>
+
 
     </div>
     </div>

@@ -37,4 +37,9 @@ export default {
 .nuxt-content p{
   margin-left: 1rem;
 }
+.nuxt-content li{
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
 </style>

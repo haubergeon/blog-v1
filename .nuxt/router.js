@@ -4,9 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _2a43a95c = () => interopDefault(import('../pages/About.vue' /* webpackChunkName: "pages/About" */))
-const _d12fbaee = () => interopDefault(import('../pages/Learn.vue' /* webpackChunkName: "pages/Learn" */))
-const _9f207508 = () => interopDefault(import('../pages/Learn_dsa.vue' /* webpackChunkName: "pages/Learn_dsa" */))
+const _0edfca34 = () => interopDefault(import('../pages/nav/About.vue' /* webpackChunkName: "pages/nav/About" */))
+const _de64f43e = () => interopDefault(import('../pages/nav/Coding.vue' /* webpackChunkName: "pages/nav/Coding" */))
+const _15583b10 = () => interopDefault(import('../pages/nav/Electronics.vue' /* webpackChunkName: "pages/nav/Electronics" */))
+const _687bce24 = () => interopDefault(import('../pages/nav/Guides.vue' /* webpackChunkName: "pages/nav/Guides" */))
+const _b5cbdbc6 = () => interopDefault(import('../pages/nav/Learn.vue' /* webpackChunkName: "pages/nav/Learn" */))
+const _736e519e = () => interopDefault(import('../pages/nav/Projects.vue' /* webpackChunkName: "pages/nav/Projects" */))
+const _6174ed06 = () => interopDefault(import('../pages/xyz/Learn_dsa.vue' /* webpackChunkName: "pages/xyz/Learn_dsa" */))
 const _05f13170 = () => interopDefault(import('../pages/blog/_slug.vue' /* webpackChunkName: "pages/blog/_slug" */))
 const _d9b83392 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -22,17 +26,33 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/About",
-    component: _2a43a95c,
-    name: "About"
+    path: "/nav/About",
+    component: _0edfca34,
+    name: "nav-About"
   }, {
-    path: "/Learn",
-    component: _d12fbaee,
-    name: "Learn"
+    path: "/nav/Coding",
+    component: _de64f43e,
+    name: "nav-Coding"
   }, {
-    path: "/Learn_dsa",
-    component: _9f207508,
-    name: "Learn_dsa"
+    path: "/nav/Electronics",
+    component: _15583b10,
+    name: "nav-Electronics"
+  }, {
+    path: "/nav/Guides",
+    component: _687bce24,
+    name: "nav-Guides"
+  }, {
+    path: "/nav/Learn",
+    component: _b5cbdbc6,
+    name: "nav-Learn"
+  }, {
+    path: "/nav/Projects",
+    component: _736e519e,
+    name: "nav-Projects"
+  }, {
+    path: "/xyz/Learn_dsa",
+    component: _6174ed06,
+    name: "xyz-Learn_dsa"
   }, {
     path: "/blog/:slug?",
     component: _05f13170,

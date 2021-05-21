@@ -1,24 +1,52 @@
 [
   {
-    "name": "About",
-    "path": "/About",
-    "component": "/home/gs/Desktop/blog-v1/pages/About.vue",
-    "chunkName": "pages/About",
-    "_name": "_2a43a95c"
+    "name": "nav-About",
+    "path": "/nav/About",
+    "component": "/home/gs/Desktop/blog-v1/pages/nav/About.vue",
+    "chunkName": "pages/nav/About",
+    "_name": "_0edfca34"
   },
   {
-    "name": "Learn",
-    "path": "/Learn",
-    "component": "/home/gs/Desktop/blog-v1/pages/Learn.vue",
-    "chunkName": "pages/Learn",
-    "_name": "_d12fbaee"
+    "name": "nav-Coding",
+    "path": "/nav/Coding",
+    "component": "/home/gs/Desktop/blog-v1/pages/nav/Coding.vue",
+    "chunkName": "pages/nav/Coding",
+    "_name": "_de64f43e"
   },
   {
-    "name": "Learn_dsa",
-    "path": "/Learn_dsa",
-    "component": "/home/gs/Desktop/blog-v1/pages/Learn_dsa.vue",
-    "chunkName": "pages/Learn_dsa",
-    "_name": "_9f207508"
+    "name": "nav-Electronics",
+    "path": "/nav/Electronics",
+    "component": "/home/gs/Desktop/blog-v1/pages/nav/Electronics.vue",
+    "chunkName": "pages/nav/Electronics",
+    "_name": "_15583b10"
+  },
+  {
+    "name": "nav-Guides",
+    "path": "/nav/Guides",
+    "component": "/home/gs/Desktop/blog-v1/pages/nav/Guides.vue",
+    "chunkName": "pages/nav/Guides",
+    "_name": "_687bce24"
+  },
+  {
+    "name": "nav-Learn",
+    "path": "/nav/Learn",
+    "component": "/home/gs/Desktop/blog-v1/pages/nav/Learn.vue",
+    "chunkName": "pages/nav/Learn",
+    "_name": "_b5cbdbc6"
+  },
+  {
+    "name": "nav-Projects",
+    "path": "/nav/Projects",
+    "component": "/home/gs/Desktop/blog-v1/pages/nav/Projects.vue",
+    "chunkName": "pages/nav/Projects",
+    "_name": "_736e519e"
+  },
+  {
+    "name": "xyz-Learn_dsa",
+    "path": "/xyz/Learn_dsa",
+    "component": "/home/gs/Desktop/blog-v1/pages/xyz/Learn_dsa.vue",
+    "chunkName": "pages/xyz/Learn_dsa",
+    "_name": "_6174ed06"
   },
   {
     "name": "blog-slug",
