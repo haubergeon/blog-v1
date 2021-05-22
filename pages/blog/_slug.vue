@@ -36,10 +36,17 @@ export default {
 }
 .nuxt-content p{
   margin-left: 1rem;
+  padding: 0.5rem;
 }
 .nuxt-content li{
   margin-left: 1rem;
   font-size: 1rem;
+  padding: 0.5rem;
   font-style: italic;
+  list-style:decimal ;
+}
+.nuxt-content ol{
+  margin-left: 1rem;
+  font-size: 1rem;
 }
 </style>
